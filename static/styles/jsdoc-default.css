@@ -635,6 +635,28 @@ dl.param-type {
   border-bottom: 1px solid #eee;
 }
 
+.description table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.description table th {
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 6px 13px;
+    border: 1px solid #f2f2f2;
+}
+
+.description table td {
+    vertical-align: top;
+}
+
+.description table td {
+    padding: 6px 13px;
+    border: 1px solid #eee;
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 680px) {
   body {
     overflow-x: hidden;
